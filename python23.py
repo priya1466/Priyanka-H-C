@@ -1,5 +1,4 @@
-val='ABC'
-for x in val:
-    ord_val=ord(x)
-    conv_chr=ord_val+32
-    print(chr(conv_chr))
+for row in range(5):
+    for col in range(5-row):
+        print ("*",end=" ")
+    print()
